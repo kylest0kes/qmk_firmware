@@ -37,10 +37,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 #ifdef OLED_ENABLE
 
 static void render_ascii_art(void) {
-    oled_write_ln_P(PSTR("  *  *  *  *  *  "), false);
-    oled_write_ln_P(PSTR(" * H O T  D O X *"), false);
-    oled_write_ln_P(PSTR("  *  *  *  *  *  "), false);
-    oled_write_ln_P(PSTR("   Kyle Stokes   "), false);
+    oled_write_ln_P(PSTR(" fuckfuckfuckfuck "), false);
+    oled_write_ln_P(PSTR(" fuckfuckfuckfuck "), false);
+    oled_write_ln_P(PSTR(" fuckfuckfuckfuck "), false);
+    oled_write_ln_P(PSTR(" fuckfuckfuckfuck "), false);
 }
 
 bool oled_task_user(void) {
